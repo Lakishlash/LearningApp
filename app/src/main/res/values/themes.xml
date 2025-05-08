@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.LearningApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color for app bar, buttons -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Background color for all Activities -->
+        <item name="android:windowBackground">@color/alice_blue</item>
+        <!-- Accent / secondary color for chips, highlights -->
+        <item name="colorSecondary">@color/sky_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar & nav bar tint -->
+        <item name="android:statusBarColor">@color/primary_blue</item>
+        <item name="android:navigationBarColor">@color/alice_blue</item>
+    </style>
+
+</resources>

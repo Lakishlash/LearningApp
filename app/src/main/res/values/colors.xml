@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App theme colors - custom modern UI -->
+    <color name="light_blue">#F0F8FF</color> <!-- Alice Blue for overall background -->
+    <color name="royal_blue">#0E3386</color> <!-- Deep Blue for buttons -->
+    <color name="sky_blue">#87CEEB</color> <!-- Sky Blue for special sections -->
+
+    <!-- Color aliases to fix resource linking errors -->
+    <color name="primary_blue">@color/royal_blue</color>
+    <color name="alice_blue">@color/light_blue</color>
+
+    <!-- Chip states -->
+    <color name="chip_background_selected">#0E3386</color>
+    <color name="chip_background_unselected">#F0F8FF</color>
+    <color name="chip_text_selected">#FFFFFF</color>
+    <color name="chip_text_unselected">#000000</color>
+</resources>

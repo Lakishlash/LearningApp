@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App & UI labels -->
+    <string name="app_name">Learning App</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="need_account">Need an Account?</string>
+    <string name="login_illustration_desc">Learning illustration</string>
+
+    <!-- NEW header texts -->
+    <string name="welcome_message">Welcome, Student!</string>
+    <string name="login_subtitle">Let’s Start Learning!</string>
+
+    <!-- Validation errors -->
+    <string name="error_username_required">Username is required</string>
+    <string name="error_password_invalid">
+        Password must be at least 6 characters and include uppercase, lowercase, number, &amp; special character
+    </string>
+
+    <string name="proceed_desc">Proceed to Quiz</string>
+
+</resources>
