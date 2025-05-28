@@ -40,13 +40,22 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
     // Navigation Component
     implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+
     // CardView for MaterialCardView
     implementation("androidx.cardview:cardview:1.0.0")
+
     // Retrofit + Gson
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
+    // OkHttp (already included with Retrofit, but explicit for clarity)
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+
+    // QR Code generation
+    implementation("com.google.zxing:core:3.5.1")
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
 }

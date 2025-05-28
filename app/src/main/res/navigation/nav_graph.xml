@@ -29,6 +29,10 @@
         <action
             android:id="@+id/action_dashboardFragment_to_quizFragment"
             app:destination="@id/quizFragment" />
+        <!-- NEW: Add navigation to profile -->
+        <action
+            android:id="@+id/action_dashboardFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
 
     <fragment
@@ -39,7 +43,6 @@
         <action
             android:id="@+id/action_quizFragment_to_quizResultsFragment"
             app:destination="@id/quizResultsFragment" />
-        <!-- Adding fallback navigation -->
         <action
             android:id="@+id/action_quizFragment_to_dashboardFragment"
             app:destination="@id/dashboardFragment" />
@@ -82,5 +85,44 @@
             app:popUpTo="@id/loginFragment"
             app:popUpToInclusive="true" />
     </fragment>
+
+    <!-- UPDATED PROFILE FRAGMENT WITH ALL ACTIONS -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.learningapp.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_upgradeFragment"
+            app:destination="@id/upgradeFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_shareFragment"
+            app:destination="@id/shareFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.learningapp.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_historyFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/upgradeFragment"
+        android:name="com.example.learningapp.UpgradeFragment"
+        android:label="Upgrade Account"
+        tools:layout="@layout/fragment_upgrade" />
+
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.example.learningapp.ShareFragment"
+        android:label="Share Profile"
+        tools:layout="@layout/fragment_share" />
 
 </navigation>
